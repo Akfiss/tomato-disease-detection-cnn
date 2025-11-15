@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange_main">#f07b00</color>
+    <color name="red_logout">#f00809</color>
+    <color name="orange">#FFA500</color>
+    <color name="box_stroke_white">@color/white</color>
+    <color name="hint_text_white">@color/white</color>
+    <color name="helper_text_white">@color/white</color>
+    <color name="glow_color">#FCE29A</color>
+</resources>

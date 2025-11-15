@@ -1,0 +1,21 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/white" />
+            <corners android:radius="50dp"/>
+            <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp" />
+            <gradient android:gradientRadius="@dimen/cardview_default_radius"/>
+            <size android:width="200dp" android:height="200dp"/>
+            <shadowColor android:color="@color/glow_color"/>
+            <shadowRadius android:radius="50dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/glow_color" />
+            <corners android:radius="50dp" />
+            <padding android:left="4dp" android:top="4dp" android:right="4dp" android:bottom="4dp" />
+            <size android:width="200dp" android:height="200dp"/>
+        </shape>
+    </item>
+</selector>

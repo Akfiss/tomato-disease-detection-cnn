@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/glow_color" />
+            <corners android:topLeftRadius="65dp" android:topRightRadius="65dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+            <padding android:left="20dp" android:right="20dp" android:bottom="0dp" android:top="0dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/glow_color" />
+            <corners android:topLeftRadius="65dp" android:topRightRadius="65dp" android:bottomLeftRadius="0dp" android:bottomRightRadius="0dp" />
+            <padding android:left="20dp" android:right="20dp" android:bottom="0dp" android:top="0dp" />
+        </shape>
+    </item>
+</selector>
