@@ -56,9 +56,12 @@ The repository is organized into three main directories:
 /tomato-disease-detection
 ├── 📂 Backend-CC/
 │   ├── src/
+│   │   ├── config/
 │   │   ├── controllers/
+│   │   ├── middleware/
 │   │   ├── models/
 │   │   ├── routes/
+│   │   ├── utils/
 │   │   └── app.js         \# Main Express app
 │   ├── Dockerfile
 │   └── package.json
